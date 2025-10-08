@@ -29,4 +29,21 @@ The system outputs **MIDI files**, ready to be used in digital audio workstation
 
 ---
 
-## 📂 Project Structure  
+## 📂 Project Structure 
+quantum-music-composer/
+├─ README.md # Project documentation
+├─ LICENSE # License information
+├─ requirements.txt # Python dependencies
+├─ src/ # Core source code
+│ ├─ quantum_walk.py # Quantum-inspired random walk generator
+│ ├─ scales_rhythm.py # Huayno scale definitions and rhythm templates
+│ ├─ harmony.py # Jazz harmonic progressions
+│ ├─ learner.py # Markov chain learner for MIDI corpus
+│ ├─ composer.py # Composition pipeline
+│ └─ cli.py # Command-line interface
+├─ examples/ # Example configurations and outputs
+│ ├─ demo_config.json
+│ └─ output_demo.mid
+└─ data/ # Optional training data
+└─ midi_corpus/
+
