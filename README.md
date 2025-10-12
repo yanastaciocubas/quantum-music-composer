@@ -30,6 +30,8 @@ The system outputs **MIDI files**, ready to be used in digital audio workstation
 ---
 
 ## 📂 Project Structure 
+
+```
 quantum-music-composer/
 ├─ README.md # Project documentation
 ├─ LICENSE # License information
@@ -46,4 +48,4 @@ quantum-music-composer/
 │ └─ output_demo.mid
 └─ data/ # Optional training data
 └─ midi_corpus/
-
+```
